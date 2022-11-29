@@ -8,22 +8,22 @@ public class Junior extends Student extends Person implements Printable{
 
     // Attribute to store students grade 
     // NOTE: it's private, so we provide a getter and setter
-    private String juniorGrade;
+    private String grade;
     
     // Set grade
-    public void setGrade(String juniorGrade){
-        this.juniorGrade = juniorGrade;
+    public void setGrade(String grade){
+        this.grade = grade;
     }
     // Get grade
     public String getGrade(){
-        return this.juniorGrade;
+        return this.grade;
     }
     
     // Constructor called to create a new student object
     // See it's usage in RunMe
-    public Student(String name, String juniorGrade){
+    public Student(String name, String grade){
         super(name);
-        this.setGrade(juniorGrade);
+        this.setGrade(grade);
     }
 
     // Because this class implements Printable, I must override the printMe() method
