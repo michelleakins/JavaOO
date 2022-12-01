@@ -24,7 +24,7 @@ public abstract class Person{
     }
 
     //  java.lang.Object (superclass of all classes in Java) provides a toString method
-    //  This is a method overriding the default and printing the Person's name
+    //  This is a method overriding the defult and printing the Person's name
     public String toString(){
         return this.getName();
     }
